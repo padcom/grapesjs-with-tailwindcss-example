@@ -1,0 +1,15 @@
+@import "./tailwind.css";
+@import "grapesjs/dist/css/grapes.min.css";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * The `line-height` property is changed by TailwindCSS' reset so and that way it looks ugly.
+ * Resetting it to initial value solves the problem.
+ */
+#gjs {
+  line-height: initial;
+}
